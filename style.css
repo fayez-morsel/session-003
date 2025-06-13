@@ -8,10 +8,13 @@
         display: flex;
     }
 
-    .bottonul{
+    .buttonul{
         list-style: none;
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 250px;
        
     }
 
@@ -21,7 +24,10 @@
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 13px;
         margin: 0 10px;
+
     }
+
+    
 
     #search{
         background-image: url("loop.png");
@@ -84,16 +90,12 @@
     .ppp{
         padding: 10px;
         padding-right: 0;
-        background-color: rgba(128, 128, 128, 0.507);
-        border-radius: 15px 0 0 15px;
-        
+       
     }
 
     .pp{
         padding: 10px;
         padding-left: 0;
-        background-color: rgba(128, 128, 128, 0.506);
-        border-radius: 0 15px 15px 0;
     }
 
     .profile{
@@ -223,5 +225,9 @@
 
     .phone{
         display: flex;
-        padding: 0 10px;
+        padding-bottom: 15px;
+    }
+
+    .f2{
+        color: #0099ff;
     }
