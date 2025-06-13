@@ -179,3 +179,49 @@
         padding: 20px 0;
 
     }
+
+    .job12{
+        color: rgb(0, 68, 255);
+        background-color: #0099ffcd;
+        border-radius: 10px;
+        font-size: 13px;
+        padding: 5px 10px;
+    
+    }
+
+    .job1{
+        display: flex;
+
+    }
+     
+    .job11{
+        padding-right: 30px;
+    }
+
+    #job11{
+        width: 210px;
+    }
+
+   
+
+    .job{
+        width: 300px;
+    }
+
+    .job2{
+        color: gray;
+    }
+
+    #job123{
+        height: 27px;
+    }
+
+    .f1{
+        font-weight: bold;
+        width: 100px;
+    }
+
+    .phone{
+        display: flex;
+        padding: 0 10px;
+    }
