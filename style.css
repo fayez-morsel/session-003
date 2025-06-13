@@ -24,7 +24,17 @@
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 13px;
         margin: 0 10px;
+        transition: all .5s ease;
 
+
+    }
+
+    .a:hover{
+        background-color: violet;
+        color: white;
+        box-shadow: #0099ff 0px 0px 10px;
+        padding: 20px;
+        border-radius: 10px;
     }
 
     
@@ -38,7 +48,8 @@
         width: 330px;
         border: grey solid 1px;
         border-radius: 15px;
-        padding-left: 10px;
+        padding-left: 30px;
+        margin-left: 30px;
         
     }
     
