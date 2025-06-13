@@ -29,6 +29,26 @@
 
     }
 
+        .link:link {
+            color: rgb(250, 250, 250);
+        }
+
+        .link:visited {
+            color: green;
+        }
+
+
+        .link:hover {
+            color: red;
+        }
+
+
+        .link:active {
+            color: rgb(195, 0, 255);
+        } 
+
+
+
     .a:hover{
         background-color: violet;
         color: white;
@@ -135,11 +155,13 @@
         border: #0099ff00;
         padding:  15px;
         border-radius: 15px;
+        transition: all 0.3s ease-in-out;
     }
 
     .select>button:hover{
         background-color: #0099ff8b;
         color: #0099ff;
+
     }
 
     .select{
